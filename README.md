@@ -1,18 +1,21 @@
-# 📸 Image Recognition with OpenCV – CodeClause Internship
+# 🧠 Personality Prediction via CV Analysis – CodeClause Internship
 
 ## 🔍 Project Overview
-This project uses OpenCV in Python to perform image recognition tasks such as face detection, object detection, or shape recognition.
+This project uses Natural Language Processing (NLP) and Machine Learning to analyze the text content of resumes (CVs) and predict the candidate’s personality type.
 
 ## ✅ Technologies Used
 - Python
-- OpenCV
-- NumPy, Matplotlib (optional for visualization)
+- NLP (NLTK / spaCy)
+- Scikit-learn
 - Google Colab
 
 ## 🛠 How to Run
-1. Open the Colab notebook.
-2. Upload the image file(s).
-3. Run all cells sequentially.
+1. Upload sample CV files (in `.txt` or `.pdf` format).
+2. Run each cell in sequence:
+   - Data loading
+   - Preprocessing
+   - Feature extraction
+   - Model training & prediction
 
 ## 🔁 Restart Instructions
 - To restart runtime and clear outputs:
@@ -21,5 +24,5 @@ This project uses OpenCV in Python to perform image recognition tasks such as fa
   - Click `Runtime > Factory reset runtime`
 
 ## 📦 Output
-- Annotated images with detected objects/faces
-- Optionally save or download output images
+- Predicted personality traits (e.g., MBTI type or trait categories)
+- Evaluation metrics (Accuracy, Confusion Matrix, etc.)
